@@ -2,13 +2,10 @@ window.setTimeout(function() {
 alert("Begin");
 
 // This shows examples for the following methods
-/*      text()
-        html()
-        val()
-        attr()
-        addclass()
-        removeclass()
-        toggleclass() */
+//     text()
+//     html()
+//     attr()
+      
 
 // This demonstrates how to change the text of an element (h1)
 $("h1").text("Updated Header 1"); 

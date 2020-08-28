@@ -1,0 +1,14 @@
+h1{
+color:red
+}
+.correct {
+    color: green;
+}
+.wrong {
+    color: red;
+    background: pink;
+}
+.done {
+    color: gray;
+    text-decoration-line: line-through;
+}

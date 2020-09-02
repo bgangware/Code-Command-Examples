@@ -1,0 +1,21 @@
+h1{
+color:red
+}
+
+#divback {
+    background: white;
+}
+
+button{
+    float: left;
+    margin: 10px;
+}
+
+div{
+ height: 100px;
+ width: 100px;
+ background: teal;
+ float: left;
+ margin: 20px;
+
+}

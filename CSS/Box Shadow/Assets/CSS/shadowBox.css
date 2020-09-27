@@ -1,0 +1,12 @@
+h1{
+    color:red
+    }
+
+div{
+    border: 1px solid;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 10px green;
+}
+    

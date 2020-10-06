@@ -1,0 +1,59 @@
+h1{
+color:red
+}
+
+h3{
+    background: yellow;
+    background-size: 200px;
+    display: inline;
+   
+}
+
+div{
+    background: cyan;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    border: 2px solid;
+}
+
+#div1:hover {
+    background: green;
+    font-size: larger;
+}
+
+#div2a:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 2s;
+}
+
+#div2b:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 4s ;
+}
+
+#div3a:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 6s ease;
+}
+
+#div3b:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 6s ease-in;
+}
+
+#div4a:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 6s ease 1s;
+}
+
+#div4b:hover {
+    background: green;
+    font-size: larger;
+    transition: font-size 6s ease 3s;
+}

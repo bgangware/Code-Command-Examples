@@ -1,0 +1,35 @@
+h1{
+color:red
+}
+
+.divex{
+    width: 400px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 2px solid;
+    margin: 20px;
+}
+
+#divex1{
+background-image: linear-gradient(green, yellow);    
+}
+
+#divex2{
+    background-image: linear-gradient(green, yellow,red);
+    }
+    
+#divex3{
+    background-image: linear-gradient(to right, green, yellow);    
+    }
+
+#divex4{
+    background-image: linear-gradient(to bottom right, green, yellow);    
+    }
+
+#divex5{
+    background-image: linear-gradient(90deg, green, yellow);    
+    }
+
+#divex6{
+    background-image: repeating-linear-gradient(green, yellow 10%,red 20%);
+    }

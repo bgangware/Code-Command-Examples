@@ -10,41 +10,53 @@
     <header>
         <h1>CSS Position Property</h1>
     </header>
+    <hr>
     <section>
-        <h2></h2>
-        <div class="large"></div>
-        <div class="small"></div>
-        <div class="large"></div>
+        <h2>Position: static - other properites (such as top botteom left right) will not cause the element to change position</h2>
+        <div class="large">1</div>
+        <div class="small" id="s1m">1</div>
+        <div class="large">1</div>
     </section>
-    <br>
+    <hr>
     <section>
-        <h2></h2>
-        <div class="large"></div>
-        <div class="small"></div>
-        <div class="large"></div>
+        <h2>Position: relative - element can be offset relative to itself</h2>
+        <h3>no offsets</h3>
+        <div class="large">2A</div>
+        <div class="small" id="s2m1">2A</div>
+        <div class="large">2A</div>
+        <h3>bottom is set to 25, left is set to 25</h3>
+        <div class="large">2B</div>
+        <div class="small" id="s2m2">2B</div>
+        <div class="large">2B</div>
     </section>
-    <br>
+    <hr>
     <section>
-        <h2></h2>
-        <div class="large"></div>
-        <div class="small"></div>
-        <div class="large"></div>
+        <h2>Position: Absolute - Takes no space, offset from ancestor or top (if no ancestor)</h2>
+        <h3>no offsets</h3>
+        <div class="large">3A</div>
+        <div class="small" id="s3s1">3A</div>
+        <div class="large">3A</div>
+       
+        <h3>Without ancestor - bottom 25, left 400</h3>
+        <div class="large">3B</div>
+        <div class="small" id="s3s2">3B</div>
+        <div class="large">3B</div>
+        
+        <section id="s3d">
+            <h3>With ancestor - bottom 25, left 600</h3>
+            <div class="large">3C</div>
+            <div class="small" id="s3s3">3C</div>
+            <div class="large">3C</div>
+        </section>
     </section>
-    <br>
+    <hr>
     <section>
-        <h2></h2>
-        <div class="large"></div>
-        <div class="small"></div>
-        <div class="large"></div>
+        <h2>Position: Fixed - note the div stays in the same place when you scoll the page</h2>
+        <div class="large">4</div>
+        <div class="small" id="s4s1">4</div>
+        <div class="large">4</div>
     </section>
-    <br>
-    <section>
-        <h2></h2>
-        <div class="large"></div>
-        <div class="small"></div>
-        <div class="large"></div>
-    </section>
-    <br>
-
+    <hr>
+    
 </body>
 </html>

@@ -1,6 +1,11 @@
 h1 {
     color: blue;
 }
+div{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
 
 .large {
     width: 50px;
@@ -15,4 +20,40 @@ h1 {
     background-color: rgb(17, 50, 141);
     display: inline-block;
     border: 2px black solid;
+}
+
+#s1m {
+    position: static;
+    top: 100px;
+}
+#s2m1 {
+    position: relative;
+}
+#s2m2 {
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+
+#s3s1 {
+    position: absolute;
+}
+#s3s2 {
+    position: absolute;
+    top: 25px;
+    left: 400px;
+}
+#s3s3 {
+    position: absolute;
+    top: 25px;
+    left: 600px;
+}
+#s3d {
+    position: relative;
+    border: 2px black solid;
+}
+#s4s1 {
+    position: fixed;
+    top: 100px;
+    left: 600px;
 }

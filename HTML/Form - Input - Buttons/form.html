@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Input Demo</title>
+</head>
+
+<body>
+    <main>
+        <h1>These are examples of different types of inputs</h1>
+        <form action="/goto">
+            <hr>
+            <p>
+                <label for="clientname">Please enter your name</label>
+                <input type="text" placeholder="name" id="clientname" name="clname">
+            </p>
+            <p>
+                <label for="clientpassword">Please enter your password</label>
+                <input type="password" placeholder="password" id="clientpassword" name="clpassword">
+            </p>
+            <p>
+                <label for="clientcolor">Please enter your favorite color</label>
+                <input type="color" id="clientcolor" name="clcolor">
+            </p>
+            <p>
+                <label for="clientSalary">Please enter your salary</label>
+                <input type="number" placeholder="Salary" id="clientSalary" name="clsalary">
+            </p>
+            <button>submit</button>
+            <button type="button">does not submit because type is button</button>
+            <hr>
+        </form>
+
+        <button>does not submit because button is outside of form</button>
+
+        <hr>
+
+        <h2>Hijacking Searches</h2>
+
+        <form action="https://www.google.com/search">
+            <h3>Google</h3>
+            <label for="searchGoogle">Google</label>
+            <input type="text" placeholder="search" id="searchGoogle" name="q"></input>
+            <button>Google</button>
+        </form>
+        
+        <form action="https://www.reddit.com/search">
+            <h3>Reddit</h3>
+            <label for="searchReddit">Reddit</label>
+            <input type="text" placeholder="search" id="searchReddit" name="q"></input>
+            <button>Reddit</button>
+        </form>
+        
+        <form action="https://www.youtube.com/results">
+            <h3>Utube</h3>
+            <label for="searchYouTube">YouTube</label>
+            <input type="text" placeholder="search" id="searchYouTube" name="search_query"></input>
+            <button>YouTube</button>
+        </form>
+
+        <hr>
+
+        <input type="text" name="" id="">
+        
+    </main>
+</body>
+
+</html>

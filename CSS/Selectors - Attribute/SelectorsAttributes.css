@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+}
+
+input {
+   border: red 5px solid;
+  
+}
+
+input[type="password"] {
+     background-color: rgb(119, 144, 173);
+}

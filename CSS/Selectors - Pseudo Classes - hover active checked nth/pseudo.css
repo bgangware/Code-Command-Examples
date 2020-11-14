@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+
+button:hover {
+    background-color: seagreen;
+}
+
+button:active {
+    background-color: red;
+}
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+
+.n1:nth-of-type(3) {
+    background-color: rgb(171, 202, 171);
+}
+
+.n2:nth-of-type(2n) {
+    background-color: rgb(171, 202, 171);
+}
+

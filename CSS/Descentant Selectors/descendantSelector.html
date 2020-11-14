@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boilerplate</title>
+    <link rel="stylesheet" href="descendantSelector.css">
+</head>
+
+<body>
+    <header>
+    <h1>Descendant Selectors</h1>
+    </header>
+    <Section>
+        <h2>
+            <div>
+                <p>This Descendant Selector has been turned pink</p>
+            </div>
+        </h2>
+    </Section>
+    <Section class="mainsec">
+        <h2> Not a paragraph
+            <div>
+                <p>This Descendant Selector has been turned green and is part of class mainsec</p>
+            </div>
+        </h2>
+    </Section>
+    <Section class="mainsec">
+        <h2> 
+            <div> Not a paragraph
+                <p>This Descendant Selector has been turned green and is part of class mainsec</p>
+            </div>
+        </h2>
+    </Section>
+</body>
+
+</html>

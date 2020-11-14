@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+.fl::first-letter {
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fline::first-line {
+    color: red;
+}
+.sel::selection {
+    color: aqua;
+}

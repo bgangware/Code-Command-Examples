@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+}
+
+.small {
+    width: 50%;
+}
+
+.tal {
+    text-align: left;
+}
+.tac {
+    text-align: center;
+}
+.tar {
+    text-align: right;
+}
+#fn {
+    font-weight: 400;
+}
+#fb {
+    font-weight: 700;
+}
+#td1 {
+    text-decoration: red solid line-through;
+}
+#td2 {
+    text-decoration: green wavy underline;
+}
+#lhn {
+    background-color: greenyellow;
+}
+#lh2 {
+    background-color: hotpink;
+    line-height: 2;
+}
+#ls10 {
+    letter-spacing: 10px;
+}
+#f1 {
+    font-family: arial, sans-serif;
+}
+#f2 {
+    font-family: brush script mt, sans-serif;
+}
+#ff1 {
+    font-family: fantasy;
+}
+
+#tt1 {
+    text-transform: uppercase;
+}
+#tt2 {
+    text-transform: lowercase;
+}
+#tt3 {
+    text-transform: capitalize;
+}

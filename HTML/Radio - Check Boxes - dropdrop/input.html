@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Examples</title>
+</head>
+
+<body>
+    <form action="goto">
+        <h1>Check Boxes</h1>
+        <label for="personattend">Will you attend?</label>
+        <input type="checkbox" name="pa" id="personattend" checked>
+
+        <h1>Radio Buttons</h1>
+        <label for="msex">Man</label>
+        <input type="radio" name="sex" id="msex" value="male">
+        <label for="fsex">Woman</label>
+        <input type="radio" name="sex" id="fsex" value="female" >
+
+        <h1>Dropdown Menus</h1>
+        <label for="sport">Please select your favorite passtime</label>
+        <select name="sport" id="sportid">
+            <option value="">please chose an option</option>
+            <option value="ski">Skiing</option>
+            <option value="fb">Football</option>
+            <option value="w">Wrestling</option>
+            <option value="p" selected>Poker</option>
+        </select>
+        <p></p>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

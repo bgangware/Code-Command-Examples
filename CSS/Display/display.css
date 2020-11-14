@@ -1,0 +1,52 @@
+h1 {
+    color: purple;
+}
+
+h4 {
+    color: green;
+    background-color: rgb(221, 228, 208);
+    width: 400px;
+}
+
+div {
+    background-color: rosybrown;
+    border: 3px brown solid;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+span {
+    background-color: rosybrown;
+    border: 3px brown solid;
+}
+
+.ds1h4 {
+    display: inline;
+}
+
+
+.s2s1 {
+    padding: 10px;
+    margin: 20px;
+}
+
+.s2s2 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.s3s1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.s4d1 {
+    display: none;
+}

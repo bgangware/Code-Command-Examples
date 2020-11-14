@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Attributes</title>
+</head>
+<body>
+    <form action="dummy">
+        <h1>Text using maxlength and minlength</h1>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="12" required>
+        <h1>Number using max and min</h1>
+            <label for="testscore">Test Score</label>
+            <input type="number" name="testscore" id="testscore" min="10" max="100" required>
+        <h1>Email validation</h1>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required>
+        <h1>Url validation</h1>
+            <label for="url">Web Site Address</label>
+            <input type="url" name="url" id="url" required>
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>

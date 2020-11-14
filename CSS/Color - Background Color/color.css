@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    background-color: aqua;
+}
+
+h2 {
+    color: blue;
+}
+
+#h31 {
+    color: fuchsia;
+}
+
+#h32 {
+    color: rgb(255, 0, 255);
+}
+
+#h33 {
+    color: #ff00ff;
+}
+
+#h34 {
+    color: #f0f;
+}
+
+button {
+    color: blue;
+    background-color: rgb(164, 201, 164);
+}
+
+p {
+    color: blue;
+}

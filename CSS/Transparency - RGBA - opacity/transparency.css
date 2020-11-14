@@ -1,0 +1,51 @@
+h1 {
+    color: blue;
+}
+
+.sdb {
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;
+    background-color: #2a9d8f;
+    margin: 10px;
+    display: inline-block;
+}
+
+.sdf {
+    width: 50%;
+    height: 50%;
+    border: 2px black solid;
+}
+
+#sdf1 {
+    background-color: rgba(255, 241, 230, .8);
+}
+
+#sdf2 {
+    background-color: rgba(255, 241, 230, .5);
+}
+
+#sdf3 {
+    background-color: rgba(255, 241, 230, .2);
+}
+
+.sdo {
+    width: 50%;
+    height: 50%;
+    border: 2px black solid;
+}
+
+#sdo1 {
+    background-color: #fff1e6;
+    opacity: .2;
+}
+
+#sdo2 {
+    background-color: #fff1e6;
+    opacity: .5;
+}
+
+#sdo3 {
+    background-color: #fff1e6;
+    opacity: .8;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Numbers Textareas</title>
+</head>
+
+<body>
+
+    <form action="goto">
+        <!-- This produces a range input that can go from a minimun of 5,000 to a maximum of 20,000 is steps of 2,500 -->
+        <h1>Ranges</h1>
+            <label for="miles">Please approximate the number of miles you dirve every year (5000 - 20000)</label>
+            <input type="range" name="miles" id="salary" min="5000" max="20000" step="2500">
+        
+        <!-- This produces a number input that can go from a minimun of 10,000 to a maximum of 200,000 is steps of 5,000 -->    
+        <h1>Numbers</h1>
+            <label for="clientSalary">Please enter your salary</label>
+            <input type="number" placeholder="Salary" id="clientSalary" name="clsalary" min="10000" max="200000"
+                step="5000">
+
+        <!-- This produces a text area to enter data that is 40 columns wide and 10 rows high -->
+        <h1>Text Areas</h1>
+            <label for="background">Please tell us a little about your background</label>
+            <br>
+            <textarea name="background" id="background" cols="40" rows="10" placeholder="Enter Background"></textarea>
+        
+        <hr>
+
+        <button>Submit</button>
+
+    </form>
+
+
+</body>
+
+</html>

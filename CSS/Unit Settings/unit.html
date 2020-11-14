@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <link rel="stylesheet" href="unit.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Units:  Percentages, EM and REM</h1>
+    </header>
+    <hr>
+    <section>
+        <h2>This is an example of using percents with width and height values</h2>
+        <div class="s1pd">
+            <div class="s1cd" id="s1cd1">
+                100%
+            </div>
+        </div>
+        <div class="s1pd">
+            <div class="s1cd" id="s1cd2">
+                50%
+            </div>
+        </div>    
+        <div class="s1pd">
+            <div class="s1cd" id="s1cd3">
+                10%
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2>This is an example of using percents with line-height value</h2>
+        <p class="s2p" id="s2p1">Normal line height</p>
+        <p class="s2p" id="s2p2">50% line height</p>
+        <p class="s2p" id="s2p3">200% line height</p>
+    </section>
+    <hr>
+    <section>
+        <h2>This is an example of using different values of em</h2>
+        <h3>Using em to apply different font sizes</h3>
+        <p class="s3p" id="s3p1">This is an em of .5</p>
+        <p class="s3p" id="s3p2">This is an em of 1</p>
+        <p class="s3p" id="s3p3">This is an em of 1.5</p>
+        <p class="s3p" id="s3p4">This is an em of 2</p>
+    </section>  
+    <hr>
+    <section>
+        <h2>Using em to apply font size, padding and radius to a buttion</h2>
+        <h3>Applied em as various values to default of div</h3>
+        <div id="s4d1">
+            <button class="s4b">Button 1</button>
+        </div>
+        <h3>Set div font-size to 20px using same em settings as previous button</h3>
+        <div id="s4d2">
+            <button class="s4b">Button 2</button>
+        </div>
+    </section>
+
+    <hr>
+    <section>
+        <h2>This is an example of the different of using em and rem</h2>
+        <h3>The first example is using em where each font size is based on being 20% larger than the parent</h3>
+    <ul class="nem">
+        <li>Illinois
+            <ul class="nem">
+                <li>Buffalo Grove
+                    <ul class="nem">
+                        <li>Chaucer Way</li>
+                        <li>Johnson Dr</li>
+                        <li>Jordan Ter</li>
+                    </ul>
+                <li>Northbrook
+                    <ul class="nem">
+                        <li>Candlewood Hill</li>
+                        <li>Cambria Ct</li>
+                    </ul class="nem">
+                </li>
+                <li>Huntley
+                    <ul class="nem">
+                        <li>Oak Grove Dr</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Florida
+            <ul class="nem">
+                <li>Boca Raton</li>
+                <ul class="nem">
+                    <li>Driftwood Ter</li>
+                </ul>
+                <li>Delray Beach</li>
+                <ul class="nem">
+                    <li>Lexington Club</li>
+                </ul>
+            </ul>
+        </li>
+        <li>Minnesota
+            <ul class="nem">
+                <li>Bemidji</li>
+                <ul class="nem">
+                    <li>Calihan</li>
+                </ul>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <h3>The first example is using rem where each font size is based on being 20% larger than the root</h3>
+    <ul class="rem">
+        <li>Illinois
+            <ul class="rem">
+                <li>Buffalo Grove
+                    <ul class="rem">
+                        <li>Chaucer Way</li>
+                        <li>Johnson Dr</li>
+                        <li>Jordan Ter</li>
+                    </ul>
+                <li>Northbrook
+                    <ul class="rem">
+                        <li>Candlewood Hill</li>
+                        <li>Cambria Ct</li>
+                    </ul class="rem">
+                </li>
+                <li>Huntley
+                    <ul class="rem">
+                        <li>Oak Grove Dr</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Florida
+            <ul class="rem">
+                <li>Boca Raton</li>
+                <ul class="rem">
+                    <li>Driftwood Ter</li>
+                </ul>
+                <li>Delray Beach</li>
+                <ul class="rem">
+                    <li>Lexington Club</li>
+                </ul>
+            </ul>
+        </li>
+        <li>Minnesota
+            <ul class="rem">
+                <li>Bemidji</li>
+                <ul class="rem">
+                    <li>Calihan</li>
+                </ul>
+            </ul>
+        </li>
+    </ul>     
+    </section>
+    <hr>
+</body>
+</html>

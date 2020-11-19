@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    background-color: #fefae0;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(1) {
+    align-content: flex-start;
+}
+section:nth-of-type(2) {
+    align-content: flex-end;
+}
+section:nth-of-type(3) {
+    align-content: center;
+}
+section:nth-of-type(4) {
+    justify-content: space-between;
+}
+section:nth-of-type(5) {
+    align-content: space-around;
+}
+section:nth-of-type(6) {
+    align-content: space-evenly;
+}
+
+.divColor1 {
+    background-color: #007f5f;
+}
+.divColor2 {
+    background-color: #2d00f7;
+}
+.divColor3 {
+    background-color: #ffb5a7;
+}
+.divColor4 {
+    background-color: #355070;
+}
+.divColor5 {
+    background-color: #deaaff;
+}
+.divColor6 {
+    background-color: #9a031e;
+}

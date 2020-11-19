@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+}
+
+div {
+    flex-basis: 80px;
+    height: 80px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: 100px;
+    background-color: #fefae0;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+section:nth-of-type(2) div:nth-of-type(1){
+    flex-grow: 1;
+}
+
+section:nth-of-type(3) div:nth-of-type(1){
+    flex-grow: 1;
+}
+section:nth-of-type(3) div:nth-of-type(6){
+    flex-grow: 1;
+}
+
+section:nth-of-type(4) div:nth-of-type(1){
+    flex-grow: 1;
+}
+section:nth-of-type(4) div:nth-of-type(6){
+    flex-grow: 2;
+}
+
+section:nth-of-type(5) div {
+    flex-grow: 1;
+}
+
+section:nth-of-type(6) div {
+    flex-grow: 1;
+    max-width: 200PX;
+}
+
+section:nth-of-type(7) div{
+    flex-basis: 600px;
+    flex-wrap: nowrap;
+}
+section:nth-of-type(7) div:nth-of-type(3){
+    flex-shrink: 1.5;
+}
+
+section:nth-of-type(8) div{
+    flex-basis: 600px;
+    flex-wrap: nowrap;
+}
+section:nth-of-type(8) div:nth-of-type(4){
+    flex-shrink: 0;
+}
+
+.divColor1 {
+    background-color: #007f5f;
+}
+.divColor2 {
+    background-color: #2d00f7;
+}
+.divColor3 {
+    background-color: #ffb5a7;
+}
+.divColor4 {
+    background-color: #355070;
+    
+}
+.divColor5 {
+    background-color: #deaaff;
+   }
+.divColor6 {
+    background-color: #9a031e;
+ 
+}

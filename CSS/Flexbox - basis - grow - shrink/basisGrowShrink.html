@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basis Grow Shrink</title>
+    <link rel="stylesheet" href="basisGrowShrink.css">
+</head>
+<body>
+    <header>
+        <h1>Flexbox - Basis Grow Shrink</h1>
+    </header>
+    <h2>flex-basis - 80px</h2>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+    <h2>flex-basis - 80px; 1st div flex-grow - 1;</h2>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"><span>!</span></div>
+    </section>
+    <h2>flex-basis - 80px; 1st div flex-grow - 1; 6th div flex-grow - 1</h2>
+    <h3>note: equal space on both sides</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"><span>!</span></div>
+    </section>
+    <h2>flex-basis - 80px; 1st div flex-grow - 1; 6th div flex-grow -2</h2>
+    <h3>note: the unused space is allocated 2 to 1 to the right</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+    <h2>flex-basis - 80px;  all divs  flex-grow - 1</h2>
+    <h3>note: the unused space is equally allocated amongst the divs</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+    <h2>flex-basis - 80px;  all divs  flex-grow - 1; max-width - 200px</h2>
+    <h3>note: the unused space is equally allocated amongst the divs until the maximun width of 200px is reached</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+    <h2>flex-basis - 600px;  3rd div   flex-shrink - 1.5;</h2>
+    <h3>note: the 3rd div shinks much faster than the other divs</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+    <h2>flex-basis - 600px;  4rd div   flex-shrink - 0;</h2>
+    <h3>note: when a flex-shrink of 0 is applied the div doesn't shrink at all</h3>
+    <section>
+        <div class="divColor1"></div>
+        <div class="divColor2"></div>
+        <div class="divColor3"></div>
+        <div class="divColor4"></div>
+        <div class="divColor5"></div>
+        <div class="divColor6"></div>
+    </section>
+   
+</body>
+</html>
